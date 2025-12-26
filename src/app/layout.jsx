@@ -49,7 +49,7 @@ const grind = localFont({
 });
 
 export const metadata = {
-  title: "Beta Katanainu",
+  title: "Game Katanainu",
   description: "Multiplayer on-chain action game - Katana Inu",
 };
 
