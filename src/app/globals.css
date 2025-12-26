@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-border;
+  }
+
+  body {
+    @apply bg-black overflow-x-hidden text-white scroll-smooth;
+    /* @apply bg-black overflow-x-hidden text-white scroll-smooth; */
+  }
+
+  /* NAV CSS */
+  .main-container {
+    @apply w-full sm:w-[576px] md:w-[740px] lg:w-[960px] xl:w-[1200px] 2xl:w-[1370px] mx-auto px-4 sm:px-0 2xl:px-0;
+  }
+  /* .main-container-2 {
+    @apply w-full sm:w-[576px] md:w-[600px] lg:w-[700px] xl:w-[1000px] 2xl:w-[1100px] mx-auto px-4 sm:px-0 2xl:px-0;
+  } */
+  .main-container-2 {
+    @apply px-4 md:px-10 xl:px-12 2xl:px-10 max-w-[1640px] mx-auto;
+  }
+  .navLogo {
+    @apply flex justify-between items-start px-6 py-7;
+  }
+  .text-primary-color {
+    @apply text-white;
+  }
+
+  /* SECTIONS */
+  .section-padding {
+    @apply pt-32 xl:pt-44;
+  }
+  .section-margin {
+    @apply mt-32 xl:mt-44;
+  }
+}
+
+@layer utilities {
+  .text-heading-2 {
+    @apply text-xl md:text-2xl lg:text-4xl xl:text-[38px];
+  }
+
+  .transition-ease {
+    @apply transition-all duration-300 ease-in;
+  }
+  .devider-container-top {
+    @apply absolute top-0 left-0 w-full h-[2px];
+  }
+  .devider-container-bottom {
+    @apply absolute bottom-0 left-0 w-full h-[2px];
+  }
+  .banner-button {
+    @apply bg-[#101010B2] px-4 sm:px-3 sm:py-2 md:px-5 lg:py-3.5 lg:min-w-[120px] xl:py-2.5 xl:min-w-[140px] 2xl:py-3.5 2xl:min-w-[180px] 3xl:min-w-[200px];
+  }
+  .primary-gradient {
+    @apply bg-gradient-to-b from-csPrimary to-csPrimary-foreground;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-csPrimary to-csPrimary-foreground;
+  }
+  .banner-text {
+    @apply font-khand font-semibold text-xs leading-[0.8] top-[1px] sm:text-[0.625em] sm:leading-[0.8] md:text-xs md:leading-[0.8] md:top-[1px] lg:text-sm lg:leading-[0.8] lg:top-0.5 xl:text-base xl:leading-[0.8] xl:top-0.5 2xl:text-lg 2xl:leading-[0.8] 3xl:text-xl 3xl:leading-[0.8] 2xl:top-0.5 2xl:tracking-wider 3xl:tracking-widest;
+  }
+}
+
+/* CUSTOM STYLE */
+@media (min-width: 2440px) {
+  .banner {
+    max-width: 1536px;
+    margin-inline: auto;
+  }
+  .banner__content {
+    padding-left: 0 !important;
+  }
+  .join-game__content-container {
+    padding-top: 300px !important;
+  }
+}
+
+.brand_container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -209px;
+  width: 100%;
+  background-image: url("/assets/images/bg_pattern.png");
+  height: 1143px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.btn:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: #46c3ff;
+  transition: all 500ms ease;
+}
+.btn:hover:before {
+  width: 100%;
+}
+.btn2:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: linear-gradient(to bottom, #00ffae, #30bc90);
+  transition: all 500ms ease;
+}
+.btn2:hover:before {
+  width: 100%;
+}
+.btn3:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: linear-gradient(to bottom, #fff, #fff);
+  transition: all 500ms ease;
+}
+.btn3:hover:before {
+  width: 100%;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@media (min-width: 1920px) {
+  .max-page-screen {
+    width: 1920px;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1800px) {
+  .max-screen-width {
+    width: 1640px;
+    padding-inline: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+}
+
+/* custom scroll bar */
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #1d1d1f;
+}
+
+/* Custom scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: #30bc90;
+  border-radius: 4px;
+}
+
+/* SWIPER */
+.my-swiper .swiper-slide-prev {
+  transform: scale(0.85) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.my-swiper .swiper-slide-active {
+  transform: scale(1) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.my-swiper .swiper-slide-next {
+  transform: scale(0.85) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.my-swiper .swiper-button-next {
+  right: var(--swiper-navigation-sides-offset, 0px) !important;
+}
+
+.my-swiper .swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset, 0px) !important;
+}
+
+.player-swiper .swiper-slide {
+  transition: transform 0.3s ease-in-out !important;
+  transform: scale(0.8) !important;
+}
+
+.player-swiper .swiper-slide-active {
+  transform: scale(1.2) !important; /* Scale the center slide */
+}
