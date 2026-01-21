@@ -9,8 +9,8 @@ import Register from "@/components/register/Register";
 import RegisterTwo from "@/components/register/RegisterTwo";
 // import Requirements from "@/components/Requirements";
 // import Trailers from "@/components/trailers/Trailers";
-import WhereToBuyToken from "@/components/WhereToBuyToken";
-import WinBySharing from "@/components/WinBySharing";
+//import WhereToBuyToken from "@/components/WhereToBuyToken";
+//import WinBySharing from "@/components/WinBySharing";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       {/* <SecondBanner /> */}
       <Banner />
       <PartneredLogo />
-      <WinBySharing />
+      {/* <WinBySharing /> */}
       <Register />
       <div className="bg-[url('/assets/images/bg-large.webp')] bg-cover z-[1] relative">
         <Brand />
@@ -30,7 +30,7 @@ export default function Home() {
         <ChoosePlayer />
       </div>
       <RegisterTwo />
-      <WhereToBuyToken />
+      {/* <WhereToBuyToken /> */}
     </main>
   );
 }

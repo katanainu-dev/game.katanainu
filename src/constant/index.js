@@ -205,14 +205,14 @@ export const footerLinksAbout = [
     label: "About KATANA INU",
     link: "https://katanainu.gitbook.io/2/introduction/introduction",
   },
-  {
-    label: "About NFTs",
-    link: "https://katanainu.gitbook.io/2",
-  },
-  {
-    label: "CoineMarketCap",
-    link: "https://coinmarketcap.com/de/currencies/katana-inu/",
-  },
+  // {
+  //   label: "About NFTs",
+  //   link: "https://katanainu.gitbook.io/2",
+  // },
+  // {
+  //   label: "CoineMarketCap",
+  //   link: "https://coinmarketcap.com/de/currencies/katana-inu/",
+  // },
   {
     label: "Updates",
     link: "https://t.me/katanainuannouncement",
@@ -232,10 +232,10 @@ export const footerLinksSupport = [
     label: "FAQ",
     link: "https://www.katanainu.com/faq",
   },
-  {
-    label: "Tokenomics",
-    link: "https://www.katanainu.com/assets/resources/katanainutokenomics.pdf",
-  },
+  // {
+  //   label: "Tokenomics",
+  //   link: "https://www.katanainu.com/assets/resources/katanainutokenomics.pdf",
+  // },
   {
     label: "Contact Us",
     link: "mailto:support@katanainu.com",

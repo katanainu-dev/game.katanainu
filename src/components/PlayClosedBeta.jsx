@@ -23,7 +23,7 @@ const PlayClosedBeta = () => {
       <div className="pb-6 sm:pb-8 md:pb-10 lg:pb-11 xl:pb-12 2xl:pb-14 relative">
         <div className="main-container-2 flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-11 xl:gap-12 2xl:gap-14 justify-center items-center">
           {/* header text */}
-          <div className="flex flex-col gap-1 justify-center items-center">
+          {/* <div className="flex flex-col gap-1 justify-center items-center">
             <h4 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gradient font-semibold uppercase font-poppins">
               Burn Event:
             </h4>
@@ -38,7 +38,7 @@ const PlayClosedBeta = () => {
               For each kill in Katanainu Game we burn 10 tokens weekly: 1 Kill =
               Burn 10 tokens.
             </p>
-          </div>
+          </div> */}
           <div className="flex flex-col gap-1 justify-center items-center">
             <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[52px]  text-gradient font-semibold uppercase font-poppins">
               Play Our
@@ -50,7 +50,7 @@ const PlayClosedBeta = () => {
 
           {/* download options */}
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-2 gap-y-1.5 md:gap-y-2 md:gap-x-4 lg:gap-x-5 lg:gap-y-2.5 xl:gap-x-6 2xl:gap-x-7">
-            <DownloadButton
+            {/* <DownloadButton
               key="download launcher"
               idx={1}
               link={
@@ -74,7 +74,7 @@ const PlayClosedBeta = () => {
                   Game Launcher
                 </p>
               }
-            />
+            /> */}
             <CustomButtonVariantTwo
               key="download directly"
               primary={false}
@@ -170,7 +170,7 @@ const NewUI = () => {
               />
             </div>
 
-            <div className="flex flex-col gap-0.5 lg:gap-1">
+            {/* <div className="flex flex-col gap-0.5 lg:gap-1">
               <em className="font-poppins font-semibold text-white text-xs sm:text-xs lg:text-sm xl:text-base 2xl:text-xl">
                 or can access our closed beta without an access key if you:
               </em>
@@ -190,7 +190,7 @@ const NewUI = () => {
                 Hold one of the below combinations for the GameZone Sword or
                 Bluezilla Axe NFT&apos;s:
               </em>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* right video */}
@@ -208,7 +208,7 @@ const NewUI = () => {
       </div>
 
       {/* buttons */}
-      <div className="mt-3 sm:mt-0 sm:absolute sm:-bottom-12 md:-bottom-11 lg:-bottom-16 xl:-bottom-14 2xl:bottom-0 right-0 h-[114px] sm:h-auto 2xl:h-[140px] sm:mx-3 md:mx-4 lg:mx-8 xl:mx-9 2xl:mx-10 sm:w-[260px] md:w-[280px] lg:w-[360px] xl:w-[460px] 2xl:w-[580px]">
+      {/* <div className="mt-3 sm:mt-0 sm:absolute sm:-bottom-12 md:-bottom-11 lg:-bottom-16 xl:-bottom-14 2xl:bottom-0 right-0 h-[114px] sm:h-auto 2xl:h-[140px] sm:mx-3 md:mx-4 lg:mx-8 xl:mx-9 2xl:mx-10 sm:w-[260px] md:w-[280px] lg:w-[360px] xl:w-[460px] 2xl:w-[580px]">
         <div className="w-full h-full flex flex-wrap items-center justify-center gap-x-2 md:gap-x-3 xl:gap-x-4 gap-y-0.5 lg:gap-y-2 2xl:gap-x-5 2xl:gap-y-3">
           {gameTags?.map((tag, idx) => (
             <div key={idx}>
@@ -228,7 +228,7 @@ const NewUI = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

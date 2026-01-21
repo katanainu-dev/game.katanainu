@@ -23,13 +23,7 @@ export default function FooterDesc() {
           <span className="gradient-text font-bold">
             KATANA INU IS A A PROJECT FROM CHAINVISION GAMES
           </span>
-          <br /> Nothing on this website constitutes financial advice, and it is
-          always recommended to consult a qualified financial advisor before
-          participating in any token or NFT purchases. <br /> <br /> Buy Katana
-          Inu NFTs only from katanainu.com or kainu.io subdomains to be safe.
-          Check the website&apos;s address on our main website www.katanainu.com
-          and go to the Minting NFTs section to verify. Ask in our telegram or
-          discord channel for confirmation. Avoid other websites!
+          
         </p>
 
         {/* social link */}
@@ -56,7 +50,7 @@ export default function FooterDesc() {
           </div>
           {/* footer closing text */}
           <p className="font-poppins text-white text-sm sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl tracking-wide">
-            © All Right Reserved, mint.katanainu.com
+            © All Right Reserved, katanainu.com
           </p>
         </div>
       </div>

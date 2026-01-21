@@ -52,14 +52,14 @@ const Register = () => {
           {/* content */}
           <div className="flex flex-col gap-0.5 lg:gap-1">
             <h3 className="font-poppins font-semibold text-white shadow-lg uppercase italic text-xs leading-none sm:text-sm sm:leading-tight md:text-base md:leading-tight lg:text-lg lg:leading-[1] 2xl:text-xl">
-              ARE YOU READY? OPEN BETA May 2025
+              ARE YOU READY Warriors?
             </h3>
             <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-csPrimary to-csPrimary-foreground font-poppins font-extrabold uppercase italic text-xl leading-none sm:text-xl sm:leading-none md:text-2xl md:leading-tight lg:text-3xl xl:text-4xl 2xl:text-5xl">
-              Register Now
+              Register here for free keys:
             </h1>
-            <h2 className="font-poppins font-semibold text-white shadow-lg uppercase italic text-lg leading-none sm:text-lg sm:leading-tight md:text-xl md:leading-tight lg:text-2xl xl:text-3xl 2xl:text-4xl">
+            {/* <h2 className="font-poppins font-semibold text-white shadow-lg uppercase italic text-lg leading-none sm:text-lg sm:leading-tight md:text-xl md:leading-tight lg:text-2xl xl:text-3xl 2xl:text-4xl">
               OPEN BETA Katana Inu
-            </h2>
+            </h2> */}
             <form
               onSubmit={handleSubmit}
               className="mt-1 md:mt-2 xl:mt-3 flex flex-col gap-3 md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-7"
