@@ -24,10 +24,10 @@ export const navlinks = {
     },
 
 
-    {
-      label: "Reward",
-      path: "https://reward.katanainu.com/",
-    },
+    // {
+    //   label: "Reward",
+    //   path: "https://reward.katanainu.com/",
+    // },
 
 
 
@@ -55,10 +55,10 @@ export const navlinks = {
         },
       ],
     },
-    {
-      label: "Marketplace",
-      path: "https://kainu.io/",
-    },
+    // {
+    //   label: "Marketplace",
+    //   path: "https://kainu.io/",
+    // },
     {
       label: "Play",
       path: "https://play.katanainu.com/",
@@ -113,36 +113,40 @@ export const navlinks = {
 };
 
 export const brandLinks = [
+  // {
+  //   imgPath: "/assets/images/brandLogo/brand1.png",
+  //   linkPath: "https://skynet.certik.com/projects/katanainu",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/brand2.png",
+  //   linkPath: "https://www.coingecko.com/en/coins/katana-inu",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/brand3.png",
+  //   linkPath: "https://coinmarketcap.com/currencies/katana-inu/",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/avalanche-logo.svg",
+  //   linkPath: "#",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/polygon.png",
+  //   linkPath: "#",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/beam.png",
+  //   linkPath: "#",
+  // },
+  // {
+  //   imgPath: "/assets/images/brandLogo/solana.png",
+  //   linkPath: "#",
+  // },
   {
-    imgPath: "/assets/images/brandLogo/brand1.png",
-    linkPath: "https://skynet.certik.com/projects/katanainu",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/brand2.png",
-    linkPath: "https://www.coingecko.com/en/coins/katana-inu",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/brand3.png",
-    linkPath: "https://coinmarketcap.com/currencies/katana-inu/",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/avalanche-logo.svg",
+    imgPath: "/assets/images/brandLogo/steam.png",
     linkPath: "#",
   },
-  {
-    imgPath: "/assets/images/brandLogo/polygon.png",
-    linkPath: "#",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/beam.png",
-    linkPath: "#",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/solana.png",
-    linkPath: "#",
-  },
-  {
-    imgPath: "/assets/images/brandLogo/immutable.png",
+   {
+    imgPath: "/assets/images/brandLogo/epic.jpg",
     linkPath: "#",
   },
 ];

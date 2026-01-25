@@ -91,6 +91,26 @@ const Register = () => {
                 />
               </button>
             </form>
+            <h3 className="font-bold text-[30px]">Download Here: </h3>
+            <div className="flex gap-[15px]">
+                <a target="_blank" rel="noreffrer" class="flex items-center justify-center gap-2 xl:gap-3 px-3 py-2 md:px-3.5 xl:px-4 2xl:px-5 bg-black border border-white/50 w-[188px] sm:w-auto" href="#">
+              <Image
+                src="/assets/images/brandLogo/epic.jpg"
+                alt="My image"
+                width={50}
+                height={50}
+              />
+            </a>
+            <a target="_blank" rel="noreffrer" class="flex items-center justify-center gap-2 xl:gap-3 px-3 py-2 md:px-3.5 xl:px-4 2xl:px-5 bg-black border border-white/50 w-[188px] sm:w-auto" href="#">
+              <Image
+                src="/assets/images/brandLogo/steam.jpg"
+                alt="My image"
+                width={50}
+                height={50}
+              />
+            </a>
+            </div>
+            
           </div>
         </div>
       </section>

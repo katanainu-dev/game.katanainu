@@ -50,7 +50,7 @@ const PlayClosedBeta = () => {
 
           {/* download options */}
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-2 gap-y-1.5 md:gap-y-2 md:gap-x-4 lg:gap-x-5 lg:gap-y-2.5 xl:gap-x-6 2xl:gap-x-7">
-            {/* <DownloadButton
+            <DownloadButton
               key="download launcher"
               idx={1}
               link={
@@ -58,7 +58,7 @@ const PlayClosedBeta = () => {
               }
               icon={
                 <Image
-                  src={"/assets/images/logo.png"}
+                  src={"/assets/images/brandLogo/steam.jpg"}
                   alt="Katanainu logo"
                   width={50}
                   height={50}
@@ -71,10 +71,35 @@ const PlayClosedBeta = () => {
               }
               secondTextLabel={
                 <p className="font-jost font-medium text-base leading-[1] md:text-sm md:leading-[1]">
-                  Game Launcher
+                  Steam
                 </p>
               }
-            /> */}
+            />
+            <DownloadButton
+              key="download launcher"
+              idx={1}
+              link={
+                "https://download.katanainu.com/Katanainu-launcher.exe"
+              }
+              icon={
+                <Image
+                  src={"/assets/images/brandLogo/epic.jpg"}
+                  alt="Katanainu logo"
+                  width={50}
+                  height={50}
+                  className="w-10 sm:w-7 md:w-8 md:h-8 2xl:w-[34px] 2xl:h-[34px]"
+                />
+              }
+              buttonExtraClass="bg-black border border-white/50 w-[188px] sm:w-auto"
+              textLabel={
+                <p className="font-jost text-sm md:text-xs">Play With</p>
+              }
+              secondTextLabel={
+                <p className="font-jost font-medium text-base leading-[1] md:text-sm md:leading-[1]">
+                  Epic Games
+                </p>
+              }
+            />
             <CustomButtonVariantTwo
               key="download directly"
               primary={false}

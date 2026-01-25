@@ -3,7 +3,7 @@ import Banner from "@/components/banner/Banner";
 import Brand from "@/components/Brand";
 import ChoosePlayer from "@/components/ChoosePlayer";
 import Media from "@/components/media/Media";
-import PartneredLogo from "@/components/partner/PartneredLogo";
+//import PartneredLogo from "@/components/partner/PartneredLogo";
 import PlayClosedBeta from "@/components/PlayClosedBeta";
 import Register from "@/components/register/Register";
 import RegisterTwo from "@/components/register/RegisterTwo";
@@ -17,7 +17,7 @@ export default function Home() {
     <main>
       {/* <SecondBanner /> */}
       <Banner />
-      <PartneredLogo />
+      {/* <PartneredLogo /> */}
       {/* <WinBySharing /> */}
       <Register />
       <div className="bg-[url('/assets/images/bg-large.webp')] bg-cover z-[1] relative">
